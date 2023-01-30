@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.reto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: white;
+    margin-top: 3em;
+    height: 15em;
+    width: 95%;
+}
+
+#anotacion{
+    font-style: italic;
+    font-size: large;
+    margin-top: 5em;
+}
+
+
+#resultado{
+    padding: 1em;
+    background-color: azure;
+    border: 0.1em solid red;
+    color: black;
+    font-size: large;
+}
+
+footer{
+    align-self: flex-end;
+    justify-content: end;
+    color: grey;
+    font-style: italic;
+    margin-top: 20em;
+    margin-right: 2em;
+}
