@@ -75,3 +75,5 @@ Ahora crea una clase mainApp que realice lo siguiente:
 ###Actualizaciones:
 
 30/01/2023.- Se ha Creado la estructura principal de los 3 proyectos, se ha creado el README, se ha hecho el repositorio de GitHub y se ha realizado el primer Reto.
+
+31/01/2023.- Se ha modificado el 1r Reto, se ha finalizado el 2º Reto.

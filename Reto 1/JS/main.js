@@ -4,16 +4,16 @@ let divweb = document.getElementById('resultado');
 
 const sexDefault='H'
 class Persona {
-    constructor(dni) {
-        this.nombre = ' ';
-        this.edad = 0;
+    constructor(dni, nombre=' ', edad=0, sexo=sexDefault, altura=0 ) {
+        this.nombre = nombre;
+        this.edad = edad;
         this.dni = dni;
-        this.sexo = sexDefault;
-        this.altura = 0;
+        this.sexo = sexo;
+        this.altura = altura;
     }
 }
-const Edu = new Persona('46723169-A');
-const Desi = new Persona('47278194-S');
+const Edu = new Persona('46723169-A', 'Eduard', 33, 'H' , 1.84);
+const Desi = new Persona('47278194-S', 'Desi', 29, 'M');
 const Mari = new Persona('46650756-V');
 console.log(Edu);
 console.log(Desi);
